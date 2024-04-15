@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1501139083538-0139583c060f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8dGltZXJ8ZW58MHx8MHx8fDA%3D");
+    background-position:center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    color: #F5F5F5;
+    font-size: 40px;
+}
+
+table {
+    margin: auto;
+}
+
+th {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input {
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid #F5F5F5;
+    border-radius: 5px;
+    &:focus {
+        outline: none;
+    }
+}
+input:hover{
+    background-color: #F5F5F5;
+    color: black;
+    cursor:pointer;
+}
+
+button {
+    min-width: 120px;
+    margin: 20px 10px;
+    padding: 10px;
+    font-size: 20px;
+    /* background-color: #FFFFFF; */
+    border-radius: 5px;
+    font-weight: 600;
+    border:2px ;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    color: #F5F5F5;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.time {
+    /* background-color: black; */
+    color: #FFFFFF;
+    font-size: 100px;
+    width: 150px;
+    margin: 0 10px;
+    border: 2px solid #F5F5F5;
+    border-radius: 5px;
+}
+#calculate{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: #F5F5F5; 
+}
+#calculate:hover{
+    background-color: #F5F5F5;
+    color: black;
+    cursor:pointer;
+}
+#reset{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: #F5F5F5; 
+    &:focus {
+        outline: none; 
+    /* to remove the black border */
+    }
+}
+#reset:hover{
+    background-color: #F5F5F5;
+    color: black;
+    cursor:pointer;
+}
+#stop{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: #F5F5F5;
+}
+#stop:hover{
+    background-color: #F5F5F5;
+    color: black;
+    cursor:pointer;
+}
+
+
